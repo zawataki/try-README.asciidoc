@@ -1,6 +1,103 @@
 = Try README.asciidoc
 
+See to: https://qiita.com/xmeta/items/de667a8b8a0f982e123a
+
+= Level 0 Section Title
+
+== Level 1 Section Title
+
+=== Level 2 Section Title
+
+==== Level 3 Section Title
+
+===== Level 4 Section Title
+
+line1 +
+line2
+
+*bold*
+
+_italic_
+
+`monospace`
+
+X^2^
+
+X~2~
+
+[red]#赤色#
+
+[underline]#下線#
+
+[line-through]#取り消し線#
+
+// コメント
+
+http://asciidoctor.org/[リンク]
+
+See to: http://asciidoctor.org/[Asciidoctor]
+
+See to:link:http://asciidoctor.org/[Asciidoctor]
+
+image::http://placehold.it/350x150[Alternative text]
+
+
+* level 1
+** level 2
+*** level 3
+**** level 4
+***** level 5
+* level 1
+
+. Step 1
+. Step 2
+.. Step 2a
+.. Step 2b
+. Step 3
+
+Apple:: りんご
+Orange:: みかん
+
+[source, java]
+----
+public class HelloWorld{
+   public static void main(String[] args){
+     System.out.println("Hello World!!");
+   }
+}
+----
+
 [source, java]
 ----
 include::HelloWorld.java[lines=2..4]
 ----
+
+[quote, 'https://ja.wikipedia.org/wiki/AsciiDoc[AsciiDoc - Wikipedia]']
+____
+AsciiDocは軽量マークアップのひとつである。 意味的にDocBook XMLと同一であるが、対人可読な文書記述形式であり，文書の（論理）構造を意味付ける規則が平文形式である。 ゆえに何の構文解析器を介さずとも，テキストエディタなどを用いてAsciiDocで記述された文書を作成・閲読できる。 HTMLを始めPDF、manページ、電子書籍、スライドといった種々の形式[1]にDocBookツールチェーンを介して変換することが可能である。
+____
+
+.テーブルタイトル
+[options="header"]
+|=======================
+|Col 1|Col 2      |Col 3
+|1    |Item 1     |a
+|2    |Item 2     |b
+|3    |Item 3     |c
+|=======================
+
+[format="csv"]
+|======
+1,2,3,4
+a,b,c,d
+A,B,C,D
+|======
+
+++++
+<ruby>
+  <rb>亜米利加</rb>
+  <rp>（</rp>
+  <rt> アメリカ</rt>
+  <rp> ）</rp>
+</ruby>
+++++
