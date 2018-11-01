@@ -44,6 +44,8 @@ See to:link:http://asciidoctor.org/[Asciidoctor]
 
 image::http://placehold.it/350x150[Alternative text]
 
+image::https://svgshare.com/i/99t.svg[width="600",alt="untitle"]
+
 = List
 * level 1
 ** level 2
